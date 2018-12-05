@@ -17,10 +17,10 @@ public class Xogador extends Seleccion{
     }
 
     public Xogador(int id, String nome, String apelido, int idade, int dorsal, String demarcacion) {
-        super.setId(id);
-        super.setNome(nome);
-        super.setApelido(apelido);
-        super.setIdade(idade);
+        this.id = id;
+        this.nome = nome;
+        this.apelido = apelido;
+        this.idade = idade;
         this.dorsal = dorsal;
         this.demarcacion = demarcacion;
     }

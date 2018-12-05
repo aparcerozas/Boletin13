@@ -10,10 +10,10 @@ package boletin13;
  * @author aparcerozas
  */
 public class Seleccion {
-    private int id;
-    private String nome;
-    private String apelido;
-    private int idade;
+    int id;
+    String nome;
+    String apelido;
+    int idade;
 
     public Seleccion() {
     }

@@ -17,10 +17,10 @@ public class Masaxista extends Seleccion{
     }
 
     public Masaxista(int id, String nome, String apelido, int idade, String titulacion, int anosExperiencia) {
-        super.setId(id);
-        super.setNome(nome);
-        super.setApelido(apelido);
-        super.setIdade(idade);
+        this.id = id;
+        this.nome = nome;
+        this.apelido = apelido;
+        this.idade = idade;
         this.titulacion = titulacion;
         this.anosExperiencia = anosExperiencia;
     }
